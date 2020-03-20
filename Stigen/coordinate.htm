@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/coordinate.css">
+</head>
+<body>
+	<div class="main">
+		<ul>
+			<li class="active"><a href="#">ADD</a></li>
+			<li><a href="cevent.php">EVENTS</a></li>
+			<li><a href="participants.php">PARTICIPANTS</a></li>
+			<li><a href="cwinner.htm">WINNERS</a></li>
+			<li><a href="GALLERY.htm">GALLERY</a></li>
+			<li><a href="home.htm">LOGOUT</a></li>
+		</ul>
+		</div>
+	<div class="participate">
+		<h3>PARTICIPATE</h3>
+		<form action="php/addparticipants.php" method="POST">
+			<p>pid</p>
+			<input type="text" name="pid">
+			<p>name</p>
+			<input type="text" name="name">
+			<p>usn</p>
+			<input type="text" name="usn">
+			<p>eid</p>
+			<input type="text" name="eid">
+			<br>
+			<input type="Submit" name="submit" value="ADD">
+			<br>
+			<a href="http://localhost/Stigen/participants.php">REMOVE?</a>
+		</form>	
+	</div>
+	<div class="events">
+		<h3>EVENTS</h3>
+		<form action="php/ceventadd.php" method="POST">
+			<p>event name</p>
+			<input type="text" name="eventname" required>
+			<p>event number</p>
+			<input type="text" name="eventid" required>
+			<p>event location</p>
+			<input type="text" name="eventlocation" required>
+			<p>Time</p>
+			<input type="text" name="eventtime" required>
+			<input type="submit" name="submit" value="ADD">
+			<br>
+			<a href="http://localhost/Stigen/cevent.php">REMOVE?</a>
+		</form>		
+	</div>
+
+</body>
+</html>

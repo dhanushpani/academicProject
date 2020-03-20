@@ -1,0 +1,93 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url(images/Best-Wallpaper-130.jpg) #ccc no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-image: all;
+	background-size: 100%;
+	background-position: cover;
+	background-attachment: cover;
+}
+.loginBox{
+	width:320px;
+	height: 520px;
+	background-color:#000;
+	top:50%;
+	left:80%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	color: white;
+	padding:20px;
+	background-position: cover;
+	background-attachment: cover;
+
+}
+ h1{
+ 	background: no-repeat;
+ 	font-family: arial;
+ 	margin: 0;
+ 	padding: 20px;
+ 	text-align: center;
+ 	font-style: 21px;
+
+}
+.loginBox p{
+	font-weight: bold;
+	font-family: arial;
+}
+.loginBox input{
+	width: 80%;
+	margin-bottom: 20px;
+}
+.loginBox input[type="text"],input[type="password"],input[type="Email"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+}
+.loginBox input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 30px;
+	background: #fb2525;
+	font-size: 16px;
+	border-radius:20px;
+
+}
+.loginBox input[type="submit"]:hover{
+	cursor: pointer;
+	background: green;
+}
+
+.loginBox a{
+	text-decoration: none;
+	font-style: 12px;
+	line-height: 20px;
+	color: darkgray;
+	font-family: sans-serif;
+}
+.loginBox a:hover{
+	color:blue;
+}
+
+.Acharya img{
+	height:150px;
+	width: 100px;
+	border: solid black;
+	border-radius: 20px;
+
+}
+.stigen img{
+	height: 60px;
+	width: 100px;
+	background-color: gray;
+	border-style: ridge;
+	border-color: blue;
+}

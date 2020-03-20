@@ -1,0 +1,31 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url(images/Best-Wallpaper-130.jpg) #ccc no-repeat ;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-image: all;
+	background-size: 100%;
+	background-position: cover;
+	background-attachment: cover;
+}
+a{
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: red;
+}
+tr{
+	background-color: rgba(225,225,225,1);
+	padding: 20px;
+}
+td{
+	font-weight: 5px;
+	font-family: serif;
+	font-size: 15px;
+	padding:20px;
+	text-align: center;
+	font-style: italic;
+}

@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/Acharya-Institute-of-Technology-2.jpg);
+	height: 100vH;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: cover;
+}
+ul{
+	float:left;
+	list-style-type: none;
+	margin-top: 30px;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 1.5s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color:#000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	transform: : translate(-50%,-50%);
+}
+.title p{
+	font-family: arial; 
+	color:gold;
+	font-size: 70px;
+}
+.logo img{
+	background :linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3));
+	float: right;
+	height: 130px;
+	padding: 20px;
+	border-image: solid black;
+	border-radius: 10px;
+}
+.admin{
+	width:320px;
+	height: 320px;
+	background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+	top:52%;
+	left:12%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	color: black;
+	padding:20px;
+	background-position: cover;
+	background-attachment: cover;
+
+}
+.admin p{
+	font-weight: bold;
+	font-family: arial;
+	padding: 10px;
+	color: white;
+}
+.admin input{
+	padding: 5px;
+	width: 80%;
+	color: black;
+	margin-bottom: 20px;
+}
+.admin h3{
+	color: white;
+	text-align: center;
+	text-decoration: underline black;
+	padding: 20px;
+	padding-bottom: 40px
+
+}
+.admin input[type="text"],input[type="password"],input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 10px;
+	color: #000;
+	font-size: 25px;
+}
+.admin  input[type="submit"]{
+	top:10%;
+	align-items: center;
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	font-size: 16px;
+	border-radius:20px;
+
+}
+.admin input[type="submit"]:hover{
+	cursor: pointer;
+	background: green;
+}

@@ -1,0 +1,77 @@
+body{
+	padding: 0px;
+	background: url(images/createAcc.jpg),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-image: all;
+	background-size: 100%;
+	background-position: cover;
+	background-attachment: cover;
+}
+.AccountBox{
+	width:50%;
+	height: 95%;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	color: white;
+	padding:20px;
+	background-position: cover;
+	background-attachment: cover;
+}
+ h1{
+ 	background:no-repeat;
+ 	color: white;
+ 	font-family: arial;
+ 	margin: 0px;
+ 	padding: 0px;
+ 	text-align: center;
+ 	font-style: 31px;
+}
+.AccountBox p{
+	margin:0px;
+	padding-left: 10px;
+	padding: 5px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: 5px;
+}
+.AccountBox input{
+	width: 80%;
+	margin-bottom: 10px;
+}
+.AcoountBox input[type="text"],input[type="text"],input[type="date"], input[type="password"],input[type="Email"],input[type="Numbers"]
+{	
+	padding-right: 10px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 20px;
+	color: #fff;
+	font-size: 16px;
+}
+.AccountBox button{
+	border:none;
+	outline: none;
+	height: 40px;
+	width:120px;
+	margin-top: 20px;
+	color: black;
+	text-decoration-line: none;
+	text-align: center;
+	background: #fb2525;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+.AccountBox button:hover{
+	cursor: pointer;
+	background:blue;
+}
+
